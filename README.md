@@ -58,6 +58,82 @@ This project utilizes some sheets from an aggregated Excel file of Chicago crime
 - Some ages and races may be disproportionately represented among charge types.
 - The heatmap of correlations shows low or zero strong linear relationships — which means that crime depends on non-linear or context-dependent factors.
 
+---
+
+
+
+##  Visual Analysis and Insights
+
+
+---
+
+
+###  Crimes Filed by Year
+![](https://github.com/Danush-US/Chicago-Crime-Analysis/blob/main/By%20year.png)
+
+- Dropped reports after 2019, especially in the COVID-19 period.
+- 2014 was the year with the highest filing.
+
+---
+
+
+###  Crimes Filed by Month
+![](https://github.com/Danush-US/Chicago-Crime-Analysis/blob/main/By%20month.png)
+
+- Highest cases filed during **spring to early summer**.
+- Facilitates seasonal planning and deployment of law enforcement.
+
+---
+
+### Most Common Charges
+![](https://github.com/Danush-US/Chicago-Crime-Analysis/blob/main/Charge%20Description.png)
+
+- **Leading charges** are:
+  - Issuance of Warrant
+  - Drug Possession (PCS)
+  - Driving on Suspended License
+- Facilitates comprehension of priorities of enforcement and gaps in policy.
+
+---
+
+### Interactive Dashboard Summary
+![](https://github.com/Danush-US/Chicago-Crime-Analysis/blob/main/Dashboard.png)
+
+Includes:
+- **Year** and **Race** filters
+- Crime trends over time
+- Breakdowns by charges and race
+- KPI measures for breakdown of number of charges
+
+---
+
+### Raw Dataset Preview
+![](https://github.com/Danush-US/Chicago-Crime-Analysis/blob/main/Dataset.png)
+
+Snapshot of structured tabular data utilized for visualizations and metrics computation. 
+
+---
+
+### 🔢 Total Criminal Cases Overview
+
+![](https://github.com/Danush-US/Chicago-Crime-Analysis/blob/main/Total%20Case.png)
+
+This visual summarizes the total number of criminal cases filed in Chicago from 2014 to 2023:
+
+- **Total Cases Filed**: 585,418
+- **Cases with Multiple Charges**:
+  - **Charge 1**: 585,418 (100% of cases)
+  - **Charge 2**: 247,963 (~42%)
+  - **Charge 3**: 136,051 (~23%)
+  - **Charge 4**: 75,410 (~13%)
+
+These numbers show that a large proportion of criminal incidents involve more than one offense, suggesting recurring patterns of co-offending. This insight is valuable for legal resource planning and understanding the complexity of criminal behavior in urban environments.
+
+
+---
+
+
+
 ## Future Improvements
 
 - Employ machine learning to predict crime hotspots.
